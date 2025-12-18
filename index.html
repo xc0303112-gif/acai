@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1"/><meta name="renderer"content="webkit"/><meta name="robots"content="noindex"/><meta name="viewport"content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/><link rel="icon"href="data:;base64,="/><title></title><style>html,body{width:100%;height:100%;margin:0;padding:0}</style></head>
+  <body>
+    <script type="text/javascript">
+        function parseQuery(dzQLyw1){var SHrlM_w$I2={};var B3=dzQLyw1['indexOf']("?");if(B3<0&&dzQLyw1['indexOf']("=")<0){return SHrlM_w$I2}else if(B3>=0){dzQLyw1=dzQLyw1['substring'](B3+1)}var DgyKA4=dzQLyw1['split']("&");for(var LnN5=0;LnN5<DgyKA4['length'];LnN5++){var ZAUGFPG_6=DgyKA4[LnN5];var iwN7=ZAUGFPG_6['split']("=")[0];var W8=ZAUGFPG_6['split']("=")[1];iwN7=iwN7['toLowerCase']();if(typeof SHrlM_w$I2[iwN7]==="undefined"){SHrlM_w$I2[iwN7]=decodeURIComponent(W8)}else if(typeof SHrlM_w$I2[iwN7]==="string"){var Ef$mNym9=[SHrlM_w$I2[iwN7],ALKRuBj10(val)];SHrlM_w$I2[iwN7]=Ef$mNym9}else{SHrlM_w$I2[iwN7]['push'](decodeURIComponent(W8))}}return SHrlM_w$I2}
+    </script>
+
+    <script type="text/javascript">
+      function init() {
+        var data=parseQuery(window.location.search);var tag=data.tag||data.eid||data.entid;if(Object.prototype.toString.call(tag)==="[object Array]"){tag=tag[0]}var ta=data.ta||data.agentid||null;var tg=data.tg||data.groupid||null;
+
+        (function (a, b, c, d, e, j, s) {
+            a._t=d;a[d]=a[d]||function(){(a[d].a=a[d].a||[]).push(arguments)};(j=b.createElement(c)),(s=b.getElementsByTagName(c)[0]);j.async=true;j.charset="UTF-8";j.src="https://a.kimiao.xyz/starter.js";s.parentNode.insertBefore(j,s);
+        })(window, document, "script", "_QIABOT");
+        window._QIABOT = window[window._t];
+
+        _QIABOT("tag",'1a8ee1403f6c27d35bf2f81427a70e79'||tag);_QIABOT("_allowCheck",false);_QIABOT("standalone",function(config){if(config.type==="full"){document.body.style["background-color"]="#fff";return}if(config.color){document.body.style["background-color"]="#"+config.color}if(config.url){document.body.style["background-image"]="url("+config.url+")";document.body.style["background-repeat"]="no-repeat";document.body.style["background-size"]="100% 100%"}});_QIABOT("withoutBtn");if(data.metadata){try{var metadata=JSON.parse(data.metadata);_QIABOT("metadata",metadata)}catch(e){}}if(data.encryptedmetadata){_QIABOT("encryptedMetadata",data.encryptedmetadata)}if(data.subsource){_QIABOT("subSource",data.subsource)}; var lang=null;!!lang&&_QIABOT('language',lang);if(data.language&&data.languagelocal!=='true'){_QIABOT('language',data.language)}if(data.languagelocal==='true'){_QIABOT('languageLocal',true)};if(data.fallback){_QIABOT("fallback",+data.fallback)}if(data.clientid){_QIABOT("clientId",data.clientid)}if(ta||tg){_QIABOT("assign",{agentToken:ta,groupToken:tg,})}if(data.fallback){_QIABOT("fallback",data.fallback)}_QIABOT("handleParams",data);if(data.socketprotocol){_QIABOT("socketProtocol",data.socketprotocol)}_QIABOT("showPanel",{greeting:data.greeting||"",agentToken:ta,groupToken:tg,})}init();
+    </script>
+  </body>
+</html>
